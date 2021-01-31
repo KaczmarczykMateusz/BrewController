@@ -1,0 +1,19 @@
+As a home brewery technician I want RaspberryPi (controller of home brewery) to:
+- Use one pin in PWM mode for heating element controll,
+- set period of heating element PWM from 0.5s-5s,
+- controll power of heating element pin by change in PWM duty cycle,
+- controll pump (on/ off) by changing state of one of GPIO pins,
+- work with multiple DS18B20 temperature sensors,
+- connect to Internet and allow operator to controll it/ obtain data via HTTP,
+- let operator to adjust PWM and pump on/ off parameters via HTTP,
+- allow access only with correct username and password,
+- store up to 10 working profiles,
+- store all working cycles data from all sensors with one minute resolution and actuators state,
+- storage database to be located on SD card (hint: MySQL database)
+
+
+As a home brewery owner I want working profile to determine:
+- up to 10 profile steps,
+- each step's temperature.
+- each step's length in minutes (1-120)
+- each step's it's type (set/ ramp)
