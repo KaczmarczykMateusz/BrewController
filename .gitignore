@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# "Compiled bytecode" of the imported module/program
+*.pyc
