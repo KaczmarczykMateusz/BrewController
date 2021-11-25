@@ -33,3 +33,6 @@
 
 # "Compiled bytecode" of the imported module/program
 *.pyc
+
+# Pycharm project files
+.idea
